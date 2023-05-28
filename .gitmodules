@@ -1,0 +1,3 @@
+[submodule "ghnext"]
+	path = ghnext
+	url = https://github.com/a-starry-night/ghnext.git
