@@ -24,6 +24,7 @@ document.querySelector('#app').innerHTML = `
     </p>
   </div>
 `
+document.getElementsByClassName('sap').innerHTML = "<embed src='https://images.mein-mmo.de/medien/2021/07/LoL-Thresh.v1.jpg'>"
 //var path = document.getElementById("can")
 //var width = document.getElementById('')
 
