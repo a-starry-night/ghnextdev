@@ -7,6 +7,7 @@ import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader'
 import 'vite/modulepreload-polyfill'
 //import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
+$('.sap').html("<embed src='https://images.mein-mmo.de/medien/2021/07/LoL-Thresh.v1.jpg'>");
 document.querySelector('#app').innerHTML = `
   <div id="dialogue">
     <a href="https://vitejs.dev" target="_blank">
@@ -23,8 +24,7 @@ document.querySelector('#app').innerHTML = `
       Click on the Vite logo to learn more
     </p>
   </div>
-`
-document.getElementsByClassName('sap').innerHTML = "<embed src='https://images.mein-mmo.de/medien/2021/07/LoL-Thresh.v1.jpg'>";
+`;
 //var path = document.getElementById("can")
 //var width = document.getElementById('')
 
